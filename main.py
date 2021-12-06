@@ -10,6 +10,7 @@ def all():
     os.system("behave features\\dresses.feature")
     os.system("behave features\\forgot_pass.feature")
     os.system("behave features\\tops.feature")
+    os.system("behave features\\cart.feature")
 
 
 @click.command()
@@ -56,7 +57,10 @@ def forgot_pass():
 # @click.option('--tops', help='Run tops.feature file.')
 def tops():
     os.system("behave features\\tops.feature")
-
+@click.command()
+# @click.option('--cart', help='Run cart.feature file.')
+def cart():
+    os.system("behave features\\cart.feature")
 @click.group()
 def main():
     pass
@@ -68,5 +72,6 @@ main.add_command(sign_in)
 main.add_command(dresses)
 main.add_command(forgot_pass)
 main.add_command(tops)
+main.add_command(cart)
 if __name__ == "__main__":
     main()

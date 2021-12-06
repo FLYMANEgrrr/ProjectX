@@ -53,5 +53,14 @@ locator = {
     "forgot_email": (By.ID, "email"),
     "forgot_pass_error_msg": (By.XPATH, '//*[@id="center_column"]/div/div/ol/li'),
     "forgot_pass_success_msg_info": (By.XPATH, '//*[@id="center_column"]/div/p'),
-    "forgot_pass_link": (By.XPATH, '//*[@id="login_form"]/div/p[1]/a')
+    "forgot_pass_link": (By.XPATH, '//*[@id="login_form"]/div/p[1]/a'),
+    "women_item1": (By.XPATH, '//*[@id="center_column"]/ul/li[1]/div/div[2]/h5/a'),
+    "checkitem":(By.XPATH,'//*[@id="add_to_cart"]/button'),
+    "checkout_button1": (By.XPATH, '//*[@id="layer_cart"]/div[1]/div[2]/div[4]/a'),
+    "checkout_button2": (By.XPATH, '//*[@id="center_column"]/p[2]/a[1]'),
+    "checkout_button2.5":(By.XPATH,'//*[@id="center_column"]/form/p/button'),
+    "checkout_button_3_1":(By.XPATH,'//*[@id="cgv"]'),
+    "checkout_button_3_2":(By.XPATH,'//*[@id="uniform-cgv"]'),
+    "checkout_button_3_3":(By.XPATH,'//*[@id="form"]/p/button')
+
 }
