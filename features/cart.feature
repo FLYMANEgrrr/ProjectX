@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 Feature: add item to cart
   Background:
@@ -15,3 +16,11 @@ Feature: add item to cart
     And add cart2
     And agree condition
     Then deal
+=======
+# Created by timmy at 2021/12/6
+Feature: # Enter feature name here
+  # Enter feature description here
+
+  Scenario: # Enter scenario name here
+    # Enter steps here
+>>>>>>> origin/master
